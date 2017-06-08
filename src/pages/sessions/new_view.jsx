@@ -1,6 +1,6 @@
 var React = require('react');
 module.exports = function() {
-    return <div className="pd4669">
+    return <div className="pd">
         <span>
             <style dangerouslySetInnerHTML={{__html: "\n\
                 * {\n\
@@ -20,7 +20,68 @@ module.exports = function() {
                     color: inherit;\n\
                 }\n\
                 \n\
-                .pd4669-textinput-5 {\n\
+                .pd-text-3 {\n\
+                  flex-shrink: 0;\n\
+                  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
+                  color: #000000;\n\
+                  font-size: 14px;\n\
+                  font-weight: normal;\n\
+                  font-style: normal;\n\
+                  text-decoration: none;\n\
+                  text-align: left;\n\
+                  word-wrap: break-word;\n\
+                  min-height: 20px;\n\
+                  width: 95px;\n\
+                }\n\
+                \n\
+                .pd-text-5 {\n\
+                  flex-shrink: 0;\n\
+                  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
+                  color: #000000;\n\
+                  font-size: 14px;\n\
+                  font-weight: normal;\n\
+                  font-style: normal;\n\
+                  text-decoration: none;\n\
+                  text-align: left;\n\
+                  word-wrap: break-word;\n\
+                  min-height: 20px;\n\
+                  width: 153px;\n\
+                }\n\
+                \n\
+                .pd-0-0-0-1 {\n\
+                  margin-left: 21px;\n\
+                }\n\
+                \n\
+                .pd-0-0-0-2 {\n\
+                  height: 0px;\n\
+                  width: 100%;\n\
+                }\n\
+                \n\
+                .pd-text-8 {\n\
+                  flex-shrink: 0;\n\
+                  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
+                  color: #000000;\n\
+                  font-size: 14px;\n\
+                  font-weight: normal;\n\
+                  font-style: normal;\n\
+                  text-decoration: none;\n\
+                  text-align: left;\n\
+                  word-wrap: break-word;\n\
+                  min-height: 20px;\n\
+                  width: 95px;\n\
+                }\n\
+                \n\
+                .pd-0-0-0 {\n\
+                  display: flex;\n\
+                  flex-direction: row;\n\
+                  align-items: flex-start;\n\
+                  flex-shrink: 0;\n\
+                  min-width: 384px;\n\
+                  padding-left: 20px;\n\
+                  padding-right: 0px;\n\
+                }\n\
+                \n\
+                .pd-textinput-5 {\n\
                   width: 214px;\n\
                   height: 23px;\n\
                   flex-shrink: 0;\n\
@@ -32,7 +93,7 @@ module.exports = function() {
                   border: 1px solid #cccccc;\n\
                 }\n\
                 \n\
-                .pd4669-0-0-0-0 {\n\
+                .pd-0-0-1-0-0 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   align-items: flex-start;\n\
@@ -41,7 +102,7 @@ module.exports = function() {
                   padding-right: 15px;\n\
                 }\n\
                 \n\
-                .pd4669-textinput-53 {\n\
+                .pd-textinput-53 {\n\
                   width: 214px;\n\
                   height: 23px;\n\
                   flex-shrink: 0;\n\
@@ -53,7 +114,7 @@ module.exports = function() {
                   border: 1px solid #cccccc;\n\
                 }\n\
                 \n\
-                .pd4669-0-0-0-1 {\n\
+                .pd-0-0-1-0-1 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   align-items: flex-start;\n\
@@ -63,7 +124,7 @@ module.exports = function() {
                   padding-right: 15px;\n\
                 }\n\
                 \n\
-                .pd4669-button-2 {\n\
+                .pd-button-2 {\n\
                   width: 110px;\n\
                   height: 26px;\n\
                   flex-shrink: 0;\n\
@@ -80,7 +141,7 @@ module.exports = function() {
                   border: none;\n\
                 }\n\
                 \n\
-                .pd4669-0-0-0-2 {\n\
+                .pd-0-0-1-0-2 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   align-items: flex-start;\n\
@@ -90,7 +151,7 @@ module.exports = function() {
                   padding-right: 67px;\n\
                 }\n\
                 \n\
-                .pd4669-layout-4 {\n\
+                .pd-layout-4 {\n\
                   display: flex;\n\
                   flex-direction: column;\n\
                   flex-shrink: 0;\n\
@@ -100,20 +161,29 @@ module.exports = function() {
                   border: 1px solid #979797;\n\
                 }\n\
                 \n\
-                .pd4669-0-0 {\n\
+                .pd-0-0-1 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
-                  flex-shrink: 0;\n\
-                  padding-top: 51px;\n\
-                  padding-bottom: 0px;\n\
                   align-items: flex-start;\n\
-                  padding-left: 115px;\n\
-                  padding-right: 115px;\n\
+                  flex-shrink: 0;\n\
+                  min-width: 253px;\n\
+                  margin-top: 16px;\n\
+                  justify-content: center;\n\
                 }\n\
                 \n\
-                .pd4669-artboard-8 {\n\
+                .pd-0-0 {\n\
                   display: flex;\n\
                   flex-direction: column;\n\
+                  flex-shrink: 0;\n\
+                  min-width: 384px;\n\
+                  padding-top: 15px;\n\
+                  padding-bottom: 0px;\n\
+                }\n\
+                \n\
+                .pd-artboard-8 {\n\
+                  display: flex;\n\
+                  flex-direction: column;\n\
+                  min-width: 384px;\n\
                   padding-top: 0px;\n\
                   padding-bottom: 175px;\n\
                   background: #FFFFFF;\n\
@@ -123,19 +193,33 @@ module.exports = function() {
                 \n\
                 "}}/>
         </span>
-        <div className="pd4669-artboard-8">
-            <div className="pd4669-0-0">
-                <div className="pd4669-layout-4">
-                    <div className="pd4669-0-0-0-0">
-                        <input className="pd4669-textinput-5" placeholder="Email" type="text"></input>
-                    </div>
-                    <div className="pd4669-0-0-0-1">
-                        <input className="pd4669-textinput-53" placeholder="Password" type="text"></input>
-                    </div>
-                    <div className="pd4669-0-0-0-2">
-                        <button className="pd4669-button-2" type="submit">
-                            <span className="pd4669-0-0-0-2-0-0">Login</span>
-                        </button>
+        <div className="pd-artboard-8">
+            <div className="pd-0-0">
+                <div className="pd-0-0-0">
+                    <a className="pd-0-0-0-0" href="/transactions">
+                        <div className="pd-text-3">Transactions</div>
+                    </a>
+                    <a className="pd-0-0-0-1" href="/company">
+                        <div className="pd-text-5">My company</div>
+                    </a>
+                    <div className="pd-0-0-0-2"></div>
+                    <a className="pd-0-0-0-3" href="/login">
+                        <div className="pd-text-8">Logout</div>
+                    </a>
+                </div>
+                <div className="pd-0-0-1">
+                    <div className="pd-layout-4">
+                        <div className="pd-0-0-1-0-0">
+                            <input className="pd-textinput-5" placeholder="Email" type="text"></input>
+                        </div>
+                        <div className="pd-0-0-1-0-1">
+                            <input className="pd-textinput-53" placeholder="Password" type="text"></input>
+                        </div>
+                        <div className="pd-0-0-1-0-2">
+                            <button className="pd-button-2" type="submit">
+                                <span className="pd-0-0-1-0-2-0-0">Login</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

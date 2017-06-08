@@ -1,6 +1,6 @@
-eact = require('react');
+var React = require('react');
 module.exports = function() {
-    return <div className="pd4671">
+    return <div className="pd">
         <span>
             <style dangerouslySetInnerHTML={{__html: "\n\
                 * {\n\
@@ -20,7 +20,7 @@ module.exports = function() {
                     color: inherit;\n\
                 }\n\
                 \n\
-                .pd4671-text-6 {\n\
+                .pd-text-6 {\n\
                   flex-shrink: 0;\n\
                   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
                   color: #000000;\n\
@@ -34,7 +34,7 @@ module.exports = function() {
                   width: 95px;\n\
                 }\n\
                 \n\
-                .pd4671-text-64 {\n\
+                .pd-text-64 {\n\
                   flex-shrink: 0;\n\
                   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
                   color: #000000;\n\
@@ -48,20 +48,40 @@ module.exports = function() {
                   width: 153px;\n\
                 }\n\
                 \n\
-                .pd4671-0-0-0-1 {\n\
+                .pd-0-0-0-1 {\n\
                   margin-left: 21px;\n\
                 }\n\
                 \n\
-                .pd4671-0-0-0 {\n\
+                .pd-0-0-0-2 {\n\
+                  height: 0px;\n\
+                  width: 100%;\n\
+                }\n\
+                \n\
+                .pd-text-1 {\n\
+                  flex-shrink: 0;\n\
+                  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
+                  color: #000000;\n\
+                  font-size: 14px;\n\
+                  font-weight: normal;\n\
+                  font-style: normal;\n\
+                  text-decoration: none;\n\
+                  text-align: left;\n\
+                  word-wrap: break-word;\n\
+                  min-height: 20px;\n\
+                  width: 95px;\n\
+                }\n\
+                \n\
+                .pd-0-0-0 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   align-items: flex-start;\n\
                   flex-shrink: 0;\n\
-                  padding-left: 21px;\n\
-                  padding-right: 193px;\n\
+                  min-width: 384px;\n\
+                  padding-left: 20px;\n\
+                  padding-right: 0px;\n\
                 }\n\
                 \n\
-                .pd4671-text-2 {\n\
+                .pd-text-2 {\n\
                   width: 232px;\n\
                   flex-shrink: 0;\n\
                   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
@@ -75,7 +95,7 @@ module.exports = function() {
                   min-height: 20px;\n\
                 }\n\
                 \n\
-                .pd4671-0-0-1-0-0 {\n\
+                .pd-0-0-1-0-0 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   align-items: flex-start;\n\
@@ -84,7 +104,7 @@ module.exports = function() {
                   padding-right: 8px;\n\
                 }\n\
                 \n\
-                .pd4671-text-5 {\n\
+                .pd-text-5 {\n\
                   flex-shrink: 0;\n\
                   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
                   color: rgb(119, 119, 119);\n\
@@ -98,7 +118,7 @@ module.exports = function() {
                   width: 208px;\n\
                 }\n\
                 \n\
-                .pd4671-text-1 {\n\
+                .pd-text-14 {\n\
                   width: 24px;\n\
                   flex-shrink: 0;\n\
                   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
@@ -112,7 +132,7 @@ module.exports = function() {
                   min-height: 20px;\n\
                 }\n\
                 \n\
-                .pd4671-0-0-1-0-1-0-0-0-0-0-1 {\n\
+                .pd-0-0-1-0-1-0-0-0-0-0-1 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   flex-shrink: 0;\n\
@@ -122,7 +142,7 @@ module.exports = function() {
                   align-items: flex-start;\n\
                 }\n\
                 \n\
-                .pd4671-0-0-1-0-1-0-0-0-0-0 {\n\
+                .pd-0-0-1-0-1-0-0-0-0-0 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   align-items: flex-start;\n\
@@ -131,7 +151,7 @@ module.exports = function() {
                   padding-right: 7px;\n\
                 }\n\
                 \n\
-                .pd4671-layout-2 {\n\
+                .pd-layout-2 {\n\
                   display: flex;\n\
                   flex-direction: column;\n\
                   flex-shrink: 0;\n\
@@ -143,15 +163,15 @@ module.exports = function() {
                   border: 1px solid rgb(228, 228, 228);\n\
                 }\n\
                 \n\
-                .pd4671-0-0-1-0-1-0-0-0 {\n\
+                .pd-0-0-1-0-1-0-0-0 {\n\
                   width: 100%;\n\
                 }\n\
                 \n\
-                .pd4671-0-0-1-0-1-0 {\n\
+                .pd-0-0-1-0-1-0 {\n\
                   margin-top: -1px;\n\
                 }\n\
                 \n\
-                .pd4671-0-0-1-0-1 {\n\
+                .pd-0-0-1-0-1 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   align-items: flex-start;\n\
@@ -161,7 +181,7 @@ module.exports = function() {
                   padding-right: 0px;\n\
                 }\n\
                 \n\
-                .pd4671-layout-8 {\n\
+                .pd-layout-8 {\n\
                   display: flex;\n\
                   flex-direction: column;\n\
                   flex-shrink: 0;\n\
@@ -171,7 +191,7 @@ module.exports = function() {
                   border: 1px solid #979797;\n\
                 }\n\
                 \n\
-                .pd4671-0-0-1 {\n\
+                .pd-0-0-1 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   align-items: flex-start;\n\
@@ -181,7 +201,7 @@ module.exports = function() {
                   justify-content: center;\n\
                 }\n\
                 \n\
-                .pd4671-textinput-0 {\n\
+                .pd-textinput-0 {\n\
                   width: 148px;\n\
                   height: 27px;\n\
                   flex-shrink: 0;\n\
@@ -193,7 +213,7 @@ module.exports = function() {
                   border: 1px solid #cccccc;\n\
                 }\n\
                 \n\
-                .pd4671-button-4 {\n\
+                .pd-button-4 {\n\
                   width: 69px;\n\
                   height: 27px;\n\
                   flex-shrink: 0;\n\
@@ -211,7 +231,7 @@ module.exports = function() {
                   border: none;\n\
                 }\n\
                 \n\
-                .pd4671-0-0-2-0-0 {\n\
+                .pd-0-0-2-0-0 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   align-items: flex-start;\n\
@@ -220,7 +240,7 @@ module.exports = function() {
                   padding-right: 7px;\n\
                 }\n\
                 \n\
-                .pd4671-layout-4 {\n\
+                .pd-layout-4 {\n\
                   display: flex;\n\
                   flex-direction: column;\n\
                   flex-shrink: 0;\n\
@@ -230,7 +250,7 @@ module.exports = function() {
                   border: 1px solid #979797;\n\
                 }\n\
                 \n\
-                .pd4671-0-0-2 {\n\
+                .pd-0-0-2 {\n\
                   display: flex;\n\
                   flex-direction: row;\n\
                   align-items: flex-start;\n\
@@ -240,19 +260,19 @@ module.exports = function() {
                   justify-content: center;\n\
                 }\n\
                 \n\
-                .pd4671-0-0 {\n\
+                .pd-0-0 {\n\
                   display: flex;\n\
                   flex-direction: column;\n\
                   flex-shrink: 0;\n\
-                  min-width: 483px;\n\
+                  min-width: 384px;\n\
                   padding-top: 15px;\n\
                   padding-bottom: 0px;\n\
                 }\n\
                 \n\
-                .pd4671-artboard-4 {\n\
+                .pd-artboard-4 {\n\
                   display: flex;\n\
                   flex-direction: column;\n\
-                  min-width: 483px;\n\
+                  min-width: 384px;\n\
                   padding-top: 0px;\n\
                   padding-bottom: 143px;\n\
                   background: #FFFFFF;\n\
@@ -262,32 +282,36 @@ module.exports = function() {
                 \n\
                 "}}/>
         </span>
-        <div className="pd4671-artboard-4">
-            <div className="pd4671-0-0">
-                <div className="pd4671-0-0-0">
-                    <a className="pd4671-0-0-0-0" href="/transactions">
-                        <div className="pd4671-text-6">Transactions</div>
+        <div className="pd-artboard-4">
+            <div className="pd-0-0">
+                <div className="pd-0-0-0">
+                    <a className="pd-0-0-0-0" href="/transactions">
+                        <div className="pd-text-6">Transactions</div>
                     </a>
-                    <a className="pd4671-0-0-0-1" href="/company">
-                        <div className="pd4671-text-64">My company</div>
+                    <a className="pd-0-0-0-1" href="/company">
+                        <div className="pd-text-64">My company</div>
+                    </a>
+                    <div className="pd-0-0-0-2"></div>
+                    <a className="pd-0-0-0-3" href="/login">
+                        <div className="pd-text-1">Logout</div>
                     </a>
                 </div>
-                <div className="pd4671-0-0-1">
-                    <div className="pd4671-layout-8">
-                        <div className="pd4671-0-0-1-0-0">
-                            <div className="pd4671-text-2">Employees</div>
+                <div className="pd-0-0-1">
+                    <div className="pd-layout-8">
+                        <div className="pd-0-0-1-0-0">
+                            <div className="pd-text-2">Employees</div>
                         </div>
-                        <div className="pd4671-0-0-1-0-1">
-                            <div className="pd4671-0-0-1-0-1-0">
+                        <div className="pd-0-0-1-0-1">
+                            <div className="pd-0-0-1-0-1-0">
                                 { this.state.users.map((user) => {
-                                    return <div className="pd4671-0-0-1-0-1-0-0-0">
-                                        <div className="pd4671-layout-2">
-                                            <div className="pd4671-0-0-1-0-1-0-0-0-0-0">
-                                                <a className="pd4671-0-0-1-0-1-0-0-0-0-0-0" href={"/users/"+user.id+""}>
-                                                    <div className="pd4671-text-5">{ user.name }</div>
+                                    return <div className="pd-0-0-1-0-1-0-0-0">
+                                        <div className="pd-layout-2">
+                                            <div className="pd-0-0-1-0-1-0-0-0-0-0">
+                                                <a className="pd-0-0-1-0-1-0-0-0-0-0-0" href={"/users/"+user.id+""}>
+                                                    <div className="pd-text-5">{ user.name }</div>
                                                 </a>
-                                                <div className="pd4671-0-0-1-0-1-0-0-0-0-0-1">
-                                                    <div className="pd4671-text-1" onClick={this.deleteUser(user.id)}>╳</div>
+                                                <div className="pd-0-0-1-0-1-0-0-0-0-0-1">
+                                                    <div className="pd-text-14" onClick={this.deleteUser(user.id)}>╳</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -297,12 +321,12 @@ module.exports = function() {
                         </div>
                     </div>
                 </div>
-                <div className="pd4671-0-0-2">
-                    <div className="pd4671-layout-4">
-                        <div className="pd4671-0-0-2-0-0">
-                            <input className="pd4671-textinput-0" placeholder="Name" type="text"></input>
-                            <button className="pd4671-button-4" type="submit" onClick={this.addUser}>
-                                <span className="pd4671-0-0-2-0-0-1-0">New</span>
+                <div className="pd-0-0-2">
+                    <div className="pd-layout-4">
+                        <div className="pd-0-0-2-0-0">
+                            <input className="pd-textinput-0" placeholder="Name" type="text"></input>
+                            <button className="pd-button-4" type="submit" onClick={this.addUser}>
+                                <span className="pd-0-0-2-0-0-1-0">New</span>
                             </button>
                         </div>
                     </div>

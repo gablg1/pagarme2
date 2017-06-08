@@ -7,6 +7,7 @@ import CompaniesIndex from './pages/companies/index';
 
 const Routes = (props) => (
   <Router {...props}>
+    <Route path="/" component={SessionsNew} />
     <Route path="/login" component={SessionsNew} />
     <Route path="/transactions" component={TransactionsIndex} />
     <Route path="/company" component={CompaniesIndex} />

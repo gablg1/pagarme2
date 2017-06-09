@@ -5,18 +5,38 @@ class CompaniesIndex extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {users: [
-        {id:3, name: 'John'},
-        {id:5, name: 'King Arthur'}
-    ]};
+    this.state = {
+        users: [
+            {id:0, name: 'John'},
+            {id:1, name: 'King Arthur'}
+        ],
+        inputName: '',
+        lastId: 1
+    };
+  }
+
+  linkState(prop) {
+      return {
+          value: this.state[prop],
+          requestChange: (val) => { this.setState({[prop]: val});}
+      }
   }
 
   addUser() {
-      window.alert('Implement me!');
+      const newUsers = this.state.users.concat({id:this.state.lastId + 1, name:this.state.inputName});
+      this.setState({
+          inputName: '',
+          users: newUsers,
+          lastId: this.state.lastId + 1
+      });
   }
 
   deleteUser(user_id) {
-      return () => { window.alert(`Trying to delete user with id ${user_id}. Implement me!`) };
+      return () => {
+          this.setState({
+              users: this.state.users.filter((u) => (u.id != user_id))
+          });
+      };
   }
 };
 

@@ -82,7 +82,7 @@ module.exports = function() {
                 }\n\
                 \n\
                 .pd-text-2 {\n\
-                  width: 232px;\n\
+                  width: 75px;\n\
                   flex-shrink: 0;\n\
                   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
                   color: #000000;\n\
@@ -101,7 +101,7 @@ module.exports = function() {
                   align-items: flex-start;\n\
                   flex-shrink: 0;\n\
                   padding-left: 11px;\n\
-                  padding-right: 8px;\n\
+                  padding-right: 165px;\n\
                 }\n\
                 \n\
                 .pd-text-5 {\n\
@@ -187,6 +187,7 @@ module.exports = function() {
                   flex-shrink: 0;\n\
                   padding-top: 10px;\n\
                   padding-bottom: 0px;\n\
+                  border-radius: 5px;\n\
                   background: rgb(255, 255, 255);\n\
                   border: 1px solid #979797;\n\
                 }\n\
@@ -219,7 +220,7 @@ module.exports = function() {
                   flex-shrink: 0;\n\
                   margin-left: 15px;\n\
                   border-radius: 4px;\n\
-                  background: #337ab7;\n\
+                  background: rgb(158, 194, 224);\n\
                   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\
                   color: #fff;\n\
                   font-size: 16px;\n\
@@ -311,7 +312,7 @@ module.exports = function() {
                                                     <div className="pd-text-5">{ user.name }</div>
                                                 </a>
                                                 <div className="pd-0-0-1-0-1-0-0-0-0-0-1">
-                                                    <div className="pd-text-14" onClick={this.deleteUser(user.id)}>╳</div>
+                                                    <div className="pd-text-14" onClick={this.deleteUser(user.id).bind(this)}>╳</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -324,8 +325,8 @@ module.exports = function() {
                 <div className="pd-0-0-2">
                     <div className="pd-layout-4">
                         <div className="pd-0-0-2-0-0">
-                            <input className="pd-textinput-0" placeholder="Name" type="text"></input>
-                            <button className="pd-button-4" type="submit" onClick={this.addUser}>
+                            <input className="pd-textinput-0" placeholder="Name" type="text" name="::inputName" valueLink={this.linkState('inputName')}></input>
+                            <button className="pd-button-4" type="submit" onClick={this.addUser.bind(this)}>
                                 <span className="pd-0-0-2-0-0-1-0">New</span>
                             </button>
                         </div>
